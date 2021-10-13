@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+:root{
+  --background-gradient: linear-gradient(120deg,hsl(13, 100%, 72%),hsl(353, 100%, 62%) );
+}
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  
+}
+img{
+  max-width: 100%;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+p{
+  line-height: 1.5;
+}
+h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+.showcase{
+  background-image: url('https://a0.muscache.com/im/pictures/57b9f708-bb12-498c-bc33-769f8fc43e63.jpg?im_w=2560') ;
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+  height: 626px;
+  
+}
+.navbar{
+  position: absolute;
+  color: white;
+  width: 100%;
+  padding:0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+nav li{
+  box-sizing: border-box;
+
+}
+.flex-showcase > div{
+  align-items: center;
+
+}
+.flex-showcase{
+  border: 1px solid white;
+  height: 70px;
+  background-color: white;
+}
+.flex-perfect{
+  width: 100%;
+  margin-top: 50px;
+  padding: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.flex-perfect button{
+  background-color: white;
+  height: 50px;
+}
+.gradient{
+  background: -webkit-linear-gradient(rgb(140, 41, 197), rgb(194, 37, 37));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.any{
+  height: 500px;
+  display: block;
+  margin-top: 50px;
+}
+.anyphoto{
+  height: 400px;
+}
+.any-photos{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+  margin: 60px auto;
+}
+.any-photo{
+  padding-right: 1px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.any-photo > p{
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.try-img{
+  margin: 60px auto;
+  width: 80%;
+  display: block;
+}
+.discover{
+  height: 400px;
+  display: block;
+}
+.discoverphoto{
+  height: 400px;
+}
+.discover-photos{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  margin: 60px auto;
+}
+.discover-photo{
+  padding-right: 1px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  height: 1100px;
+  display: block;
+  margin-top: 200px;
+}
+.footer-one{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+.footers{
+  height: 600px;
+  /* display: block; */
+  margin-top: 0px;
+  background-color: rgb(243, 243, 242);
+}
